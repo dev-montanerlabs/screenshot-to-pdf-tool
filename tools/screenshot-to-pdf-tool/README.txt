@@ -55,3 +55,18 @@ NEXT_BUTTONS = [
 
 CORRECT_COLOR = (131, 23, 26) # RGB Color of the active button
 SEARCHABLE_PDF = True         # Set to False for faster, image-only PDF
+
+
+### Basic CLI Usage (Defaults)
+Run the tool without any arguments to use the default settings (OCR enabled, saving to `XCEL_Course_Material.pdf`).
+```bash
+python screenshot_tool.py
+
+Option	    Short	Description	                                Default Value
+--filename	-f	    Sets the name of the output PDF file.	    screenshot_output.pdf
+--no-ocr	N/A	    Disables OCR/Text recognition (saves as 
+                    standard images). If this flag is NOT 
+                    used, OCR is enabled by default.    
+                    OCR Enabled
+--tesseract	-t	    Custom path to the tesseract.exe file 
+                    if installed in a non-standard location.    C:\Program Files\Tesseract-OCR\tesseract.exe
