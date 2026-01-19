@@ -28,10 +28,8 @@ REGION_WIDTH = 802
 REGION_HEIGHT = 941
 
 NEXT_BUTTONS = [
-   # (1304, 988),   # Priority 1
-   # (1295, 1021)   # Priority 2
-    (1239, 987),
-    (1237, 973)
+   (1304, 988),   # Priority 1
+   (1295, 1021)   # Priority 2
 ]
 
 CORRECT_COLOR = (131, 23, 26)
